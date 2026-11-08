@@ -1,0 +1,33 @@
+feature,area,priority,original,clone,notes
+Persistent bottom playback bar with play pause skip seek,player,must,yes,yes,Implemented with HTML5 Web Audio and custom controls
+Interactive scrubbable track progress timeline with timestamps,player,must,yes,yes,Interactive slider with elapsed and duration timestamps
+Volume slider with mute toggle,player,must,yes,yes,Volume slider and mute toggle icon
+Shuffle and Repeat playback modes (all repeat-one off),player,must,yes,yes,Supports shuffle and repeat all/one modes
+Audio playback across page navigation without interruption,player,must,yes,yes,Single Page App continuous audio playback
+Play/Pause contextual button on album playlist and track rows,player,must,yes,yes,Floating hover play buttons and track row playback
+Home discovery feed with shortcuts and horizontal carousels,home,must,yes,yes,Greeting shortcuts and horizontal carousels
+Browse categories and genre tiles,search,must,yes,yes,Color category cards with genre icons
+Real-time live search for tracks artists and playlists,search,must,yes,yes,Instant search query filtering across tracks and artists
+Playlist details view with header art title and track table,playlists,must,yes,yes,Hero banner with metadata and track table
+Track row metadata: title artist album duration index,playlists,must,yes,yes,Index title artist album and duration
+Create new playlist with default and custom name,playlists,must,yes,yes,Library create playlist button with real-time sidebar addition
+Add and remove tracks to custom playlists,playlists,must,yes,partial,Create playlist works with state persistence
+Liked Songs collection with single-click heart/save toggle,library,must,yes,yes,Instant heart save toggle with reactive liked collection
+Left sidebar library tree with filter chips (Playlists Artists Albums),library,must,yes,yes,Filter chips and library list items
+Album view with release date total tracks and tracklist,catalog,must,yes,yes,Album release year cover and tracks
+Artist profile view with top tracks discography and header,catalog,must,yes,yes,Artist banner listeners and popular tracks
+Up Next Queue drawer with reordering and clear queue,queue,must,yes,yes,Right sidebar queue toggle with next-up tracks
+Track context menu (add to playlist go to artist copy link),navigation,should,yes,partial,Direct click routing
+Dynamic background gradient reflecting album cover art color,ui,should,yes,yes,Linear gradient css variables bound to active collection
+Right sidebar Now Playing panel with large artwork and artist info,player,should,yes,yes,Toggleable right sidebar with large cover and artist bio
+Keyboard shortcuts for playback (Space for play/pause arrows for seek),player,should,yes,yes,Space to play/pause and arrow keys to seek
+Synced or plain track lyrics drawer,player,should,yes,partial,Drawer layout with about section
+Edit playlist details (custom title description cover upload),playlists,should,yes,no,
+User profile menu and preferences drawer,account,should,yes,partial,Top right profile badge
+Full screen playback display mode,player,could,yes,no,
+Sleep timer for audio playback,player,could,yes,no,
+Collaborative playlists with invite links,playlists,could,yes,no,
+Local audio file upload and playback,library,could,yes,no,
+Licensed DRM music catalog (Universal Sony Warner),catalog,must,yes,skip,Major label copyrighted catalog is proprietary and cannot be cloned
+Spotify Connect hardware device routing,streaming,should,yes,skip,Proprietary hardware SDK and partner hardware ecosystem
+Friend activity live listening feed,social,could,yes,skip,Proprietary social graph network effect
